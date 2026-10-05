@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ============ SEO ============ -->
+  <title>Pintores Danieles | Pintura e Impermeabilización en Orizaba</title>
+  <meta name="description" content="Pintura residencial y comercial, impermeabilizaciones, texturas, reparación de humedad y herrería en Orizaba. Presupuesto sin compromiso y trabajos garantizados.">
+  <meta name="keywords" content="pintores en Orizaba, pintura residencial, pintura comercial, impermeabilización, reparar humedad, pastas y texturas, herrería, deslavados, paladio">
+  <meta name="author" content="Pintores Danieles">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <!-- TODO producción: reemplazar el dominio por el definitivo en canonical, og:url, og:image y JSON-LD -->
+  <link rel="canonical" href="https://www.pintoresdanieles.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Pintores Danieles">
+  <meta property="og:title" content="Pintores Danieles | Pintura e Impermeabilización en Orizaba">
+  <meta property="og:description" content="Pintura residencial y comercial, impermeabilizaciones, texturas, humedad y herrería. Presupuesto sin compromiso y trabajos garantizados.">
+  <meta property="og:url" content="https://www.pintoresdanieles.com/">
+  <meta property="og:image" content="https://www.pintoresdanieles.com/img/obra-07.jpg">
+  <meta property="og:image:alt" content="Fachada residencial renovada por Pintores Danieles">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0B0D11" id="metaTheme">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B0D11'/%3E%3Crect x='6' y='8' width='5' height='16' rx='2.5' fill='%23F5A524'/%3E%3Crect x='13.5' y='11' width='5' height='13' rx='2.5' fill='%231FA5DB'/%3E%3Crect x='21' y='14' width='5' height='10' rx='2.5' fill='%23D93249'/%3E%3C/svg%3E">
+
+  <!-- Rendimiento: imagen del hero con prioridad (LCP) -->
+  <link rel="preload" as="image" href="img/obra-07.jpg" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+
+  <!-- Tema: se define antes de pintar para evitar parpadeo (claro, oscuro o preferencia del sistema) -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('pd-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Datos estructurados: negocio local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HousePainter",
+    "name": "Pintores Danieles",
+    "description": "Pintura residencial y comercial, impermeabilizaciones, pastas y texturas, reparación de humedad, paladio, deslavados y herrería. Presupuestos sin compromiso y trabajos garantizados.",
+    "url": "https://www.pintoresdanieles.com/",
+    "image": "https://www.pintoresdanieles.com/img/obra-07.jpg",
+    "telephone": "+52 272 129 1460",
+    "address": { "@type": "PostalAddress", "addressLocality": "Orizaba", "addressRegion": "Veracruz", "addressCountry": "MX" },
+    "areaServed": { "@type": "City", "name": "Orizaba" },
+    "knowsAbout": ["Pintura residencial", "Pintura comercial", "Impermeabilización", "Reparación de humedad", "Pastas y texturas", "Herrería"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "¿El presupuesto me compromete a contratar?", "acceptedAnswer": { "@type": "Answer", "text": "No. Los presupuestos son sin compromiso. Te explicamos el trabajo, los materiales y el costo, y tú decides." } },
+      { "@type": "Question", "name": "¿Trabajan en casas y en negocios?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Atendemos proyectos residenciales y comerciales: casas, departamentos, locales y oficinas." } },
+      { "@type": "Question", "name": "¿Qué pasa si tengo humedad en los muros?", "acceptedAnswer": { "@type": "Answer", "text": "Primero detectamos el origen, sacamos la humedad y reparamos el muro. Después pintamos o impermeabilizamos para que no regrese." } },
+      { "@type": "Question", "name": "¿Los trabajos tienen garantía?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Todos nuestros trabajos están garantizados. Al cotizar te explicamos qué cubre la garantía en tu proyecto." } },
+      { "@type": "Question", "name": "¿Dan factura?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, facturamos. Avísanos al pedir tu presupuesto para incluirlo." } },
+      { "@type": "Question", "name": "¿Qué zonas atienden?", "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos en Orizaba y municipios cercanos. Escríbenos tu ubicación y confirmamos disponibilidad." } }
+    ]
+  }
+  </script>
+</head>
+
+<body class="is-loading">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div id="sentinel" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       LOADER: anillo de progreso con tres "pinceladas" en órbita
+       ============================================================ -->
+  <div id="loader" role="status" aria-live="polite" aria-label="Cargando Pintores Danieles">
+    <div class="ld-inner">
+      <div class="ld-spin">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ld-track" cx="60" cy="60" r="52"/>
+          <circle class="ld-bar" id="ldBar" cx="60" cy="60" r="52"/>
+        </svg>
+        <span class="ld-orbit" style="--t:2.4s"><i style="--c:var(--brand-orange)"></i></span>
+        <span class="ld-orbit" style="--t:3.4s"><i style="--c:var(--brand-cyan)"></i></span>
+        <span class="ld-orbit" style="--t:4.6s"><i style="--c:var(--brand-red)"></i></span>
+        <span class="ld-count"><b id="ldCount">0</b><small>%</small></span>
+      </div>
+      <p class="ld-brand">Pintores <strong>Danieles</strong></p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVEGACIÓN
+       ============================================================ -->
+  <header class="nav" id="nav">
+    <div class="nav__bar">
+      <a class="brand" href="#inicio" aria-label="Pintores Danieles, ir al inicio">
+        <span class="brand__mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand__name">Pintores <b>Danieles</b></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#acabados">Acabados</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Cambiar entre tema claro y oscuro">
+          <i class="ph ph-moon" aria-hidden="true"></i>
+          <i class="ph ph-sun" aria-hidden="true"></i>
+        </button>
+        <a class="btn btn--accent btn--sm nav__cta" href="#contacto">Quiero mi presupuesto</a>
+        <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú móvil -->
+  <div class="menu" id="menu" aria-label="Menú" inert>
+    <nav class="menu__links" aria-label="Menú móvil">
+      <a href="#servicios" style="--i:0">Servicios</a>
+      <a href="#acabados" style="--i:1">Acabados</a>
+      <a href="#proyectos" style="--i:2">Proyectos</a>
+      <a href="#proceso" style="--i:3">Proceso</a>
+      <a href="#faq" style="--i:4">Preguntas</a>
+      <a href="#contacto" style="--i:5">Contacto</a>
+    </nav>
+    <div class="menu__foot">
+      <a class="btn btn--accent btn--lg" href="#contacto">Quiero mi presupuesto</a>
+      <a class="menu__tel" href="tel:+522721291460"><i class="ph ph-phone-call" aria-hidden="true"></i> 272 129 1460</a>
+    </div>
+  </div>
+
+  <main id="contenido">
+
+    <!-- ============================================================
+         HERO: imagen fija, texto centrado, movimiento constante
+         ============================================================ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg">
+        <img src="img/obra-07.jpg" width="1600" height="1204" fetchpriority="high" decoding="async"
+             alt="Fachada residencial con acabado texturizado y revestimiento de piedra, pintada por Pintores Danieles">
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+      <div class="hero__beam" aria-hidden="true"></div>
+      <canvas class="hero__particles" id="particles" aria-hidden="true"></canvas>
+
+      <div class="hero__content" id="heroContent">
+        <p class="eyebrow eyebrow--light hero__eyebrow">Pintura residencial y comercial en Orizaba</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span class="line__in">El acabado que</span></span>
+          <span class="line"><span class="line__in">tu
+            <span class="rotator" id="rotator">
+              <span class="rotator__w is-active">casa</span>
+              <span class="rotator__w" aria-hidden="true">negocio</span>
+              <span class="rotator__w" aria-hidden="true">fachada</span>
+              <span class="rotator__w" aria-hidden="true">local</span>
+              <span class="rotator__w" aria-hidden="true">oficina</span>
+            </span>
+            merece</span></span>
+        </h1>
+        <p class="hero__lead">Pintura, impermeabilización, texturas y herrería para casas y comercios. Presupuesto sin compromiso y trabajos garantizados.</p>
+        <div class="hero__cta">
+          <a class="btn btn--accent btn--lg magnetic" href="#contacto">
+            <span>Quiero mi presupuesto</span><i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
+          <a class="btn btn--glass btn--lg" href="#proyectos">Ver trabajos realizados</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goteo de pintura que cae del hero sobre la banda de servicios -->
+    <div class="drips" aria-hidden="true">
+      <svg class="drips__edge" viewBox="0 0 1440 24" preserveAspectRatio="none"><path d="M0 0H1440V9C1350 22 1290 5 1200 12S1050 24 960 12 810 3 720 12 570 23 480 11 330 2 240 11 90 22 0 9Z"/></svg>
+      <i style="--x:4%;  --w:9px;  --len:38px; --dl:.30s"></i>
+      <i style="--x:11%; --w:13px; --len:84px; --dl:.55s"></i>
+      <i style="--x:19%; --w:8px;  --len:30px; --dl:.20s"></i>
+      <i style="--x:27%; --w:11px; --len:58px; --dl:.75s"></i>
+      <i style="--x:38%; --w:9px;  --len:42px; --dl:.40s"></i>
+      <i style="--x:49%; --w:14px; --len:92px; --dl:.65s"></i>
+      <i style="--x:58%; --w:8px;  --len:34px; --dl:.25s"></i>
+      <i style="--x:67%; --w:12px; --len:70px; --dl:.85s"></i>
+      <i style="--x:77%; --w:9px;  --len:46px; --dl:.45s"></i>
+      <i style="--x:86%; --w:13px; --len:80px; --dl:.60s"></i>
+      <i style="--x:94%; --w:8px;  --len:32px; --dl:.35s"></i>
+    </div>
+
+    <!-- ============================================================
+         MARQUESINA: especialidades (única marquesina de la página)
+         ============================================================ -->
+    <section class="marquee" aria-label="Especialidades">
+      <div class="marquee__track">
+        <ul class="marquee__group">
+          <li>Pintura en general <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Impermeabilizaciones <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Todo tipo de pastas <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Reparación de humedad <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Paladio <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Deslavados <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Herrería <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Residencial y comercial <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+          <li>Facturamos <i class="ph ph-paint-brush-broad" aria-hidden="true"></i></li>
+        </ul>
+        <ul class="marquee__group" aria-hidden="true">
+          <li>Pintura en general <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Impermeabilizaciones <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Todo tipo de pastas <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Reparación de humedad <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Paladio <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Deslavados <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Herrería <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Residencial y comercial <i class="ph ph-paint-brush-broad"></i></li>
+          <li>Facturamos <i class="ph ph-paint-brush-broad"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MANIFIESTO: texto que se ilumina con el scroll + compromisos
+         ============================================================ -->
+    <section class="manifesto" id="nosotros" aria-labelledby="manifesto-title">
+      <div class="wrap">
+        <h2 class="manifesto__text" id="manifesto-title" data-words>Somos pintores de oficio. Preparamos cada superficie, cuidamos cada detalle y entregamos acabados que se ven impecables y que duran, en casas y en negocios.</h2>
+
+        <ul class="stats">
+          <li class="stat reveal" style="--i:0">
+            <span class="stat__num" data-count="8">8</span>
+            <span class="stat__label">Especialidades</span>
+            <p>De la pintura a la herrería, con un solo equipo.</p>
+          </li>
+          <li class="stat reveal" style="--i:1">
+            <span class="stat__num" data-count="2">2</span>
+            <span class="stat__label">Sectores</span>
+            <p>Residencial y comercial.</p>
+          </li>
+          <li class="stat reveal" style="--i:2">
+            <span class="stat__num" data-count="100" data-suffix="%">100%</span>
+            <span class="stat__label">Garantizado</span>
+            <p>Respaldamos cada trabajo que entregamos.</p>
+          </li>
+          <li class="stat reveal" style="--i:3">
+            <span class="stat__num">0</span>
+            <span class="stat__label">Compromiso</span>
+            <p>Tu presupuesto no te obliga a nada.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICIOS: bento de 7 celdas con ritmo
+         ============================================================ -->
+    <section class="services" id="servicios" aria-labelledby="services-title">
+      <div class="wrap">
+        <header class="head">
+          <p class="eyebrow reveal">Lo que hacemos</p>
+          <h2 class="h2 reveal" id="services-title" style="--i:1">Todo para que tus muros <span class="mark">luzcan y duren.</span></h2>
+          <p class="head__sub reveal" style="--i:2">De la preparación al acabado final, un solo equipo se encarga de cada detalle.</p>
+        </header>
+
+        <div class="bento">
+          <article class="cell cell--a cell--photo reveal">
+            <img class="cell__img" src="img/obra-05.jpg" width="1600" height="1204" loading="lazy" decoding="async"
+                 alt="Fachada de casa de dos pisos con muros texturizados recién pintados">
+            <span class="cell__icon"><i class="ph ph-paint-roller" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Pintura en general</h3>
+              <p>Interiores y exteriores con preparación de superficie y pintura de calidad. Color parejo, bordes limpios y un acabado que dura.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--b cell--sun reveal" style="--i:1">
+            <span class="rain" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <i class="cell__mark ph ph-umbrella" aria-hidden="true"></i>
+            <span class="cell__icon"><i class="ph ph-umbrella" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Impermeabilizaciones</h3>
+              <p>Protegemos azoteas y techos contra filtraciones para que la lluvia deje de ser un problema en tu casa o negocio.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--c cell--photo reveal">
+            <img class="cell__img cell__img--stucco" src="img/obra-06.jpg" width="1600" height="1204" loading="lazy" decoding="async"
+                 alt="Muro exterior con pasta texturizada y acabado rústico">
+            <span class="cell__icon"><i class="ph ph-wall" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Todo tipo de pastas</h3>
+              <p>Pastas y texturas para muros y fachadas: lisas, rústicas o decorativas. Corregimos imperfecciones y damos carácter al espacio.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--d cell--ink reveal" style="--i:1">
+            <span class="ripple" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="cell__icon"><i class="ph ph-drop" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Reparamos y sacamos humedad</h3>
+              <p>Detectamos el origen, la eliminamos y reparamos el muro.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--e cell--photo reveal" style="--i:2">
+            <img class="cell__img" src="img/obra-16.jpg" width="1204" height="1600" loading="lazy" decoding="async"
+                 alt="Plafón con acabado decorativo e iluminación LED perimetral">
+            <span class="cell__icon"><i class="ph ph-sparkle" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Paladio</h3>
+              <p>Acabado Paladio para muros y plafones que quieren verse distintos. Pregúntanos por muestras y colores.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--f cell--photo reveal">
+            <img class="cell__img" src="img/obra-12.jpg" width="1600" height="1204" loading="lazy" decoding="async"
+                 alt="Cocina con muros blancos renovados y pintura uniforme">
+            <span class="cell__icon"><i class="ph ph-paint-bucket" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Deslavados</h3>
+              <p>Devolvemos el color a muros y fachadas deslavados por el sol y la lluvia, con preparación y pintura nueva.</p>
+            </div>
+          </article>
+
+          <article class="cell cell--g cell--photo reveal" style="--i:1">
+            <img class="cell__img cell__img--iron" src="img/obra-07.jpg" width="1600" height="1204" loading="lazy" decoding="async"
+                 alt="Herrería negra: rejas y protecciones en una fachada residencial">
+            <span class="cell__icon"><i class="ph ph-hammer" aria-hidden="true"></i></span>
+            <div class="cell__body">
+              <h3>Herrería</h3>
+              <p>Portones, rejas, barandales y detalles en herrería, con un acabado listo para resistir el clima.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta reveal">
+          <a class="btn btn--accent btn--lg magnetic" href="#contacto"><span>Quiero renovar mi espacio</span><i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ACABADOS: texto fijo + imágenes que se revelan al avanzar
+         ============================================================ -->
+    <section class="showcase" id="acabados" aria-labelledby="showcase-title">
+      <div class="wrap showcase__grid">
+        <div class="showcase__sticky">
+          <h2 class="h2 reveal" id="showcase-title">Los detalles cambian <span class="mark">toda la habitación.</span></h2>
+          <p class="head__sub reveal" style="--i:1">Plafones, luz perimetral y acabados decorativos. Con una base bien preparada, el color y la luz hacen el resto.</p>
+          <ul class="ticks reveal" style="--i:2">
+            <li><i class="ph ph-check" aria-hidden="true"></i> Acabados lisos, rústicos y decorativos</li>
+            <li><i class="ph ph-check" aria-hidden="true"></i> Pastas y texturas para muros y plafones</li>
+            <li><i class="ph ph-check" aria-hidden="true"></i> Grietas y humedad reparadas antes de pintar</li>
+          </ul>
+          <div class="reveal" style="--i:3">
+            <a class="btn btn--accent btn--lg magnetic" data-wa="acabado" href="https://wa.me/522721291460" target="_blank" rel="noopener noreferrer">
+              <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Quiero un acabado así</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="showcase__stack">
+          <figure class="shot shot--tall wipe">
+            <img data-speed="0.07" src="img/obra-02.jpg" width="1204" height="1600" loading="lazy" decoding="async"
+                 alt="Plafón de yeso con iluminación LED perimetral y lámpara colgante de cristal sobre puertas de madera">
+          </figure>
+          <figure class="shot shot--wide wipe">
+            <img data-speed="0.06" src="img/obra-16.jpg" width="1204" height="1600" loading="lazy" decoding="async"
+                 alt="Plafón con acabado decorativo dorado y luz indirecta en una sala">
+          </figure>
+          <figure class="shot shot--tall wipe">
+            <img data-speed="0.07" src="img/obra-01.jpg" width="1204" height="1600" loading="lazy" decoding="async"
+                 alt="Pasillo con plafón de luz indirecta, muros lisos pintados y piso de mármol">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROYECTOS: galería horizontal anclada al scroll + lightbox
+         ============================================================ -->
+    <section class="gallery" id="proyectos" aria-labelledby="gallery-title">
+      <div class="gallery__pin" id="galPin">
+        <div class="gallery__track" id="galTrack">
+
+          <div class="g-intro">
+            <h2 class="h2" id="gallery-title">Así se ve un trabajo <span class="mark">bien hecho.</span></h2>
+            <p class="head__sub">Casas, interiores y fachadas que ya lucen distinto. Toca cualquier foto para verla en grande.</p>
+          </div>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: fachada residencial renovada">
+              <img src="img/obra-05.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Fachada residencial de dos pisos con muros texturizados y herrería negra">
+            </button>
+            <figcaption><strong>Fachada residencial</strong><span>Pintura y textura exterior</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--p">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: sala y comedor con plafón">
+              <img src="img/obra-04.jpg" width="1204" height="1600" loading="lazy" decoding="async" alt="Sala y comedor con plafón escalonado, lámpara decorativa y chimenea">
+            </button>
+            <figcaption><strong>Sala y comedor</strong><span>Plafón con luz perimetral</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: cocina renovada">
+              <img src="img/obra-11.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Cocina con muros blancos, barra y alacena">
+            </button>
+            <figcaption><strong>Cocina renovada</strong><span>Muros y plafón en blanco</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--p">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: sala con plafón">
+              <img src="img/obra-03.jpg" width="1204" height="1600" loading="lazy" decoding="async" alt="Sala con plafón, luz perimetral y ventanales">
+            </button>
+            <figcaption><strong>Sala con ventanales</strong><span>Plafón y muros lisos</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: fachada con textura y herrería">
+              <img src="img/obra-06.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Fachada con muros de pasta rústica, piedra y cerca de herrería negra">
+            </button>
+            <figcaption><strong>Fachada con herrería</strong><span>Pasta rústica y cerca negra</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: sala con muro de piedra">
+              <img src="img/obra-10.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Sala amplia con muro de piedra volcánica y piso de duela">
+            </button>
+            <figcaption><strong>Sala con muro de piedra</strong><span>Interior residencial</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--p">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: acabado decorativo en plafón">
+              <img src="img/obra-15.jpg" width="1204" height="1600" loading="lazy" decoding="async" alt="Detalle de plafón con acabado decorativo dorado y lámpara de cristal">
+            </button>
+            <figcaption><strong>Acabado decorativo</strong><span>Detalle en plafón</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: cocina y área de servicio">
+              <img src="img/obra-12.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Cocina con barra, fregadero y muros blancos recién pintados">
+            </button>
+            <figcaption><strong>Cocina y servicio</strong><span>Pintura interior</span></figcaption>
+          </figure>
+
+          <figure class="g-item g-item--l">
+            <button class="g-btn" type="button" aria-label="Ampliar foto: fachada con revestimiento de piedra">
+              <img src="img/obra-07.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Fachada con revestimiento de piedra, muros texturizados y rejas negras">
+            </button>
+            <figcaption><strong>Fachada con piedra</strong><span>Textura y herrería</span></figcaption>
+          </figure>
+
+          <div class="g-end">
+            <h3>¿Tu espacio es el siguiente?</h3>
+            <a class="btn btn--accent btn--lg magnetic" href="#contacto"><span>Clic aquí, cuéntanos tu idea</span><i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="gallery__bar" aria-hidden="true"><span id="galBar"></span></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BANDA CTA: imagen fija con llamada a la acción
+         ============================================================ -->
+    <section class="band" aria-labelledby="band-title">
+      <div class="band__bg">
+        <img src="img/obra-06.jpg" width="1600" height="1204" loading="lazy" decoding="async" alt="Calle residencial con fachadas pintadas y herrería negra, con montañas al fondo">
+      </div>
+      <div class="band__shade" aria-hidden="true"></div>
+      <div class="wrap band__content">
+        <h2 class="band__title reveal" id="band-title">¿Listo para ver tu espacio <span class="mark-light">renovado?</span></h2>
+        <p class="band__sub reveal" style="--i:1">Cuéntanos qué quieres cambiar y te respondemos por WhatsApp con los siguientes pasos.</p>
+        <div class="reveal" style="--i:2">
+          <a class="btn btn--accent btn--lg magnetic" data-wa="listo" href="https://wa.me/522721291460" target="_blank" rel="noopener noreferrer">
+            <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Estoy listo, hablemos</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESO: cuatro pasos con línea que avanza con el scroll
+         ============================================================ -->
+    <section class="process" id="proceso" aria-labelledby="process-title">
+      <div class="wrap">
+        <header class="head">
+          <p class="eyebrow reveal">Así trabajamos</p>
+          <h2 class="h2 reveal" id="process-title" style="--i:1">De tu mensaje al <span class="mark">acabado final.</span></h2>
+          <p class="head__sub reveal" style="--i:2">Un proceso claro, sin sorpresas y sin letra chica.</p>
+        </header>
+
+        <ol class="steps" id="steps">
+          <span class="steps__line" aria-hidden="true"><span class="steps__fill"></span></span>
+          <li class="step reveal">
+            <span class="step__icon"><i class="ph ph-chat-circle-dots" aria-hidden="true"></i></span>
+            <div>
+              <h3>Escríbenos</h3>
+              <p>Cuéntanos qué quieres renovar por WhatsApp o llamada. Es rápido y sin formularios largos.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--i:1">
+            <span class="step__icon"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></span>
+            <div>
+              <h3>Revisamos tu espacio</h3>
+              <p>Vemos las superficies, la humedad y los acabados para recomendarte la solución correcta.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--i:2">
+            <span class="step__icon"><i class="ph ph-handshake" aria-hidden="true"></i></span>
+            <div>
+              <h3>Recibes tu presupuesto</h3>
+              <p>Un presupuesto claro y sin compromiso. Tú decides si seguimos adelante.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--i:3">
+            <span class="step__icon"><i class="ph ph-seal-check" aria-hidden="true"></i></span>
+            <div>
+              <h3>Pintamos y garantizamos</h3>
+              <p>Hacemos el trabajo con cuidado, lo respaldamos con garantía y te entregamos factura.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="section-cta reveal">
+          <a class="btn btn--accent btn--lg magnetic" href="#contacto"><span>Empecemos con mi presupuesto</span><i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ: acordeón accesible (columna centrada)
+         ============================================================ -->
+    <section class="faq-sec" id="faq" aria-labelledby="faq-title">
+      <div class="wrap wrap--narrow">
+        <h2 class="h2 reveal" id="faq-title">Preguntas <span class="mark">frecuentes.</span></h2>
+
+        <div class="faq" id="faq-list">
+          <div class="faq__item reveal open">
+            <h3><button class="faq__q" type="button" aria-expanded="true" aria-controls="fa1" id="fq1">¿El presupuesto me compromete a contratar?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa1" role="region" aria-labelledby="fq1"><div><p>No. Los presupuestos son sin compromiso. Te explicamos el trabajo, los materiales y el costo, y tú decides.</p></div></div>
+          </div>
+          <div class="faq__item reveal" style="--i:1">
+            <h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="fa2" id="fq2">¿Trabajan en casas y en negocios?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa2" role="region" aria-labelledby="fq2"><div><p>Sí. Atendemos proyectos residenciales y comerciales: casas, departamentos, locales y oficinas.</p></div></div>
+          </div>
+          <div class="faq__item reveal" style="--i:2">
+            <h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="fa3" id="fq3">¿Qué pasa si tengo humedad en los muros?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa3" role="region" aria-labelledby="fq3"><div><p>Primero detectamos el origen, sacamos la humedad y reparamos el muro. Después pintamos o impermeabilizamos para que no regrese.</p></div></div>
+          </div>
+          <div class="faq__item reveal" style="--i:3">
+            <h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="fa4" id="fq4">¿Los trabajos tienen garantía?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa4" role="region" aria-labelledby="fq4"><div><p>Sí. Todos nuestros trabajos están garantizados. Al cotizar te explicamos qué cubre la garantía en tu proyecto.</p></div></div>
+          </div>
+          <div class="faq__item reveal" style="--i:4">
+            <h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="fa5" id="fq5">¿Dan factura?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa5" role="region" aria-labelledby="fq5"><div><p>Sí, facturamos. Avísanos al pedir tu presupuesto para incluirlo.</p></div></div>
+          </div>
+          <div class="faq__item reveal" style="--i:5">
+            <h3><button class="faq__q" type="button" aria-expanded="false" aria-controls="fa6" id="fq6">¿Qué zonas atienden?<i class="ph ph-plus" aria-hidden="true"></i></button></h3>
+            <div class="faq__a" id="fa6" role="region" aria-labelledby="fq6"><div><p>Trabajamos en Orizaba y municipios cercanos. Escríbenos tu ubicación y confirmamos disponibilidad.</p></div></div>
+          </div>
+        </div>
+
+        <div class="section-cta reveal">
+          <a class="btn btn--ghost btn--lg" data-wa="duda" href="https://wa.me/522721291460" target="_blank" rel="noopener noreferrer">
+            <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i><span>Preguntar por WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACTO: formulario que abre WhatsApp con el mensaje armado
+         ============================================================ -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">Contacto</p>
+          <h2 class="h2 reveal" id="contact-title" style="--i:1">Hablemos de <span class="mark">tu proyecto.</span></h2>
+          <p class="head__sub reveal" style="--i:2">Cuéntanos qué necesitas y te respondemos por WhatsApp. Presupuesto sin compromiso.</p>
+
+          <ul class="info-list reveal" style="--i:3">
+            <li>
+              <span class="info-list__icon"><i class="ph ph-phone-call" aria-hidden="true"></i></span>
+              <div><span class="info-list__label">Teléfono y WhatsApp</span><a class="info-list__big" href="tel:+522721291460">272 129 1460</a></div>
+            </li>
+            <li>
+              <span class="info-list__icon"><i class="ph ph-map-pin" aria-hidden="true"></i></span>
+              <div><span class="info-list__label">Zona de trabajo</span><span class="info-list__val">Orizaba y municipios cercanos</span></div>
+            </li>
+            <li>
+              <span class="info-list__icon"><i class="ph ph-buildings" aria-hidden="true"></i></span>
+              <div><span class="info-list__label">Tipo de proyecto</span><span class="info-list__val">Residencial y comercial</span></div>
+            </li>
+            <li>
+              <span class="info-list__icon"><i class="ph ph-receipt" aria-hidden="true"></i></span>
+              <div><span class="info-list__label">Facturación</span><span class="info-list__val">Facturamos tu servicio</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal" style="--i:2">
+          <h3 class="form-card__title">Pide tu presupuesto</h3>
+          <p class="form-card__sub">Completa lo básico. Al enviar se abre WhatsApp con tu mensaje listo.</p>
+
+          <form id="quoteForm" novalidate>
+            <div class="field">
+              <label for="f-nombre">Nombre</label>
+              <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre completo" required aria-describedby="e-nombre">
+              <p class="field__error" id="e-nombre" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="f-tel">Teléfono</label>
+              <input id="f-tel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="10 dígitos" required aria-describedby="e-tel">
+              <p class="field__error" id="e-tel" role="alert"></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="f-servicio">Servicio</label>
+                <select id="f-servicio" name="servicio" required aria-describedby="e-servicio">
+                  <option value="">Elige un servicio</option>
+                  <option>Pintura en general</option>
+                  <option>Impermeabilización</option>
+                  <option>Pastas y texturas</option>
+                  <option>Reparación de humedad</option>
+                  <option>Paladio</option>
+                  <option>Deslavados</option>
+                  <option>Herrería</option>
+                  <option>Otro o no estoy seguro</option>
+                </select>
+                <p class="field__error" id="e-servicio" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-inmueble">Tipo de inmueble</label>
+                <select id="f-inmueble" name="inmueble">
+                  <option>Casa</option>
+                  <option>Departamento</option>
+                  <option>Local comercial</option>
+                  <option>Oficina</option>
+                  <option>Bodega o nave</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-mensaje">Cuéntanos más <span class="optional">(opcional)</span></label>
+              <textarea id="f-mensaje" name="mensaje" rows="4" placeholder="Qué quieres cambiar, metros aproximados, colores, urgencia..."></textarea>
+            </div>
+
+            <button class="btn btn--accent btn--lg btn--block magnetic" type="submit" id="formBtn">
+              <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i>
+              <span class="btn__label">Enviar mi solicitud</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="#inicio" aria-label="Pintores Danieles, ir al inicio">
+            <span class="brand__mark" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="brand__name">Pintores <b>Danieles</b></span>
+          </a>
+          <p>Pintura, impermeabilización, texturas y herrería para casas y negocios. Presupuestos sin compromiso y trabajos garantizados.</p>
+        </div>
+
+        <nav class="footer__col" aria-label="Servicios">
+          <h3>Servicios</h3>
+          <a href="#servicios">Pintura en general</a>
+          <a href="#servicios">Impermeabilizaciones</a>
+          <a href="#servicios">Pastas y texturas</a>
+          <a href="#servicios">Humedad</a>
+          <a href="#servicios">Herrería</a>
+        </nav>
+
+        <nav class="footer__col" aria-label="Navegación">
+          <h3>Navegación</h3>
+          <a href="#acabados">Acabados</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#faq">Preguntas</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="footer__col">
+          <h3>Contacto</h3>
+          <a href="tel:+522721291460">272 129 1460</a>
+          <a data-wa="general" href="https://wa.me/522721291460" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <span>Orizaba y municipios cercanos</span>
+        </div>
+      </div>
+
+      <p class="footer__word" aria-hidden="true">Danieles</p>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> Pintores Danieles. Todos los derechos reservados.</p>
+        <p>Residencial y comercial. Facturamos.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <div class="wa" id="wa">
+    <span class="wa__tip" id="waTip">Escríbenos por WhatsApp</span>
+    <a class="wa__btn" data-wa="general" href="https://wa.me/522721291460" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp a Pintores Danieles">
+      <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Galería ampliada">
+    <button class="lightbox__close icon-btn" type="button" id="lbClose" aria-label="Cerrar"><i class="ph ph-x" aria-hidden="true"></i></button>
+    <button class="lightbox__nav lightbox__nav--prev icon-btn" type="button" id="lbPrev" aria-label="Foto anterior"><i class="ph ph-arrow-right" aria-hidden="true"></i></button>
+    <button class="lightbox__nav lightbox__nav--next icon-btn" type="button" id="lbNext" aria-label="Foto siguiente"><i class="ph ph-arrow-right" aria-hidden="true"></i></button>
+    <figure class="lightbox__fig">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
